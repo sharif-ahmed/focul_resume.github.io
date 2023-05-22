@@ -1,0 +1,311 @@
+/* START COMMON CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-11 {
+    width: 91.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-10 {
+    width: 83.34%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: 41.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-50 {
+    padding-top: 60px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.black-bg {
+    background: #222;
+}
+
+.gray-bg {
+    background: #f2f2f2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-white {
+    color: #fff;
+}
+
+/* END COMMON CSS */
+.header-area  {}
+.slider-area {}
+.single-slide {
+    text-align: center;
+}
+.single-slide h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 500px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    text-transform: uppercase;
+ }
+
+.single-slide .btn a {
+    padding: 20px 35px;
+    border: 1px solid #fff;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    text-transform: uppercase;
+}
+
+.logo-menu-area {
+    background: #252e30;
+}
+.logo {
+    margin-top: 15px;
+}
+.main-menu {
+    float: right;
+}
+.main-menu ul {}
+.main-menu ul li {
+    float: left;
+    margin-left: 40px;
+}
+.main-menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    padding: 30px 0;
+    display: block;
+    text-transform: uppercase;
+}
+.main-menu ul li a:hover {
+    color: #2ecc71;
+}
+
+.behevior h1 {
+    color: #566366;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.behevior p {
+    font-size: 18px;
+    color: #919191;
+    padding-top: 50px;
+    line-height: 28px;
+}
