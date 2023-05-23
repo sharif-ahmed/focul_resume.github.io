@@ -265,6 +265,7 @@ a {
 .single-slide {
     text-align: center;
 }
+
 .single-slide h1 {
     color: #fff;
     font-weight: 700;
@@ -275,7 +276,7 @@ a {
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     text-transform: uppercase;
- }
+}
 
 .single-slide .btn a {
     padding: 20px 35px;
@@ -292,24 +293,30 @@ a {
 .logo-menu-area {
     background: #252e30;
 }
+
 .logo {
     margin-top: 15px;
 }
+
 .main-menu {
     float: right;
 }
+
 .main-menu ul {}
+
 .main-menu ul li {
     float: left;
     margin-left: 40px;
 }
-.main-menu ul li a{
+
+.main-menu ul li a {
     color: #fff;
     font-size: 16px;
     padding: 30px 0;
     display: block;
     text-transform: uppercase;
 }
+
 .main-menu ul li a:hover {
     color: #2ecc71;
 }
@@ -352,14 +359,14 @@ a {
     padding-left: 150px;
 }
 
-.about-me > h4 {
+.about-me>h4 {
     margin-bottom: 50px;
     font-size: 30px;
     color: #566366;
     text-transform: uppercase;
 }
 
-.about-me > p {
+.about-me>p {
     color: #919191;
     font-size: 19px;
     line-height: 26px;
@@ -373,6 +380,7 @@ a {
     float: left;
     margin-bottom: 55px;
 }
+
 .skill-icon {
     margin-right: 23px;
     width: 45px;
@@ -401,8 +409,9 @@ a {
     color: #566366;
     font-size: 30px;
     text-transform: uppercase;
-    
+
 }
+
 .my-skills p {
     font-size: 18px;
     color: #919191;
@@ -410,6 +419,7 @@ a {
     line-height: 25px;
     padding-right: 20px;
 }
+
 .my-skills a {
     color: #2ecc71;
     border: 2px solid #2ecc71;
@@ -424,6 +434,7 @@ a {
     font-size: 30px;
     text-transform: uppercase;
 }
+
 .resume-text p {
     color: #919191;
     font-size: 18px;
@@ -434,23 +445,27 @@ a {
 .right-content {
     margin-top: 85px;
 }
+
 .right-content h4 {
     color: #566366;
     font-size: 22px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
 .right-content p {
     color: #919191;
     font-size: 18px;
     line-height: 25px;
 }
+
 .right-content hr {
     /* background: red; */
     border-color: #ccc;
     border-width: 1px;
     margin: 25px 0;
 }
+
 .right-content span {
     background: #2ecc71;
     font-size: 14px;
@@ -473,12 +488,14 @@ a {
     font-style: italic;
     padding: 0 150px;
 }
+
 .single-testimonial h6 {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
     margin-top: 45px;
     color: #566366;
+    margin-bottom: 80px;
 }
 
 .section-headeing h4 {
@@ -486,6 +503,7 @@ a {
     font-size: 30px;
     text-transform: uppercase;
 }
+
 .section-headeing p {
     padding: 50px 50px;
     color: #919191;
@@ -511,17 +529,19 @@ a {
     right: 0;
     background: #2ecc71;
     opacity: 0;
-    
+
 
 }
 
 .single-image:hover::before {
     opacity: 0.5;
 }
+
 .icon i {
     font-size: 40px;
     color: #fff;
 }
+
 .icon {
     position: absolute;
     content: "";
@@ -542,14 +562,14 @@ a {
     background: #252e30;
 }
 
-.contact-wrappers {
-    
-}
+.contact-wrappers {}
+
 .contact-wrapper h4 {
     color: #fff;
     font-size: 30px;
     text-transform: uppercase;
 }
+
 .contact-wrapper p {
     color: #919191;
     font-size: 18px;
@@ -559,11 +579,13 @@ a {
 .contact-wrapper span {
     color: #fff;
 }
+
 .contact-form {
     color: #fff;
     font-size: 18px;
     margin-top: 35px;
 }
+
 .contact-form label {
     display: block;
     margin-bottom: 20px;
@@ -579,9 +601,11 @@ a {
     border: 0;
     color: #fff;
 }
+
 .contact-form input.message {
     height: 200px;
 }
+
 .contact-btn {
     background: #191f21;
     text-transform: uppercase;
@@ -590,17 +614,21 @@ a {
     outline: none;
     border: 0;
 }
-.footer-area{
+
+.footer-area {
     background: #191f21;
 }
+
 .footer-content {
     color: #4b5456;
     font-size: 14px;
 }
+
 .footer-content p {
     margin-bottom: 30px;
     text-transform: uppercase;
 }
+
 .footer-social i {
     background: #4b5456;
     font-size: 20px;
@@ -611,6 +639,72 @@ a {
     border-radius: 50%;
     color: #191f21;
 }
+
 .footer-social i:hover {
     color: #fff;
 }
+/* SWIPPER LIBRARY CSS */
+.swiper-pagination-bullet {
+    border: 1px solid #2ecc71;
+    background-color: #191f21;
+}
+
+.swiper-pagination-bullet-active {
+    background: #2ecc71;
+    border-color: #2ecc71;
+}
+
+/* SKILLBARS JS */
+.skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  .skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+  }
+  
+  .skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    display: inline-block;
+  }
+  
+  .skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .single-skill p {
+    color: #566366;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+  

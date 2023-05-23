@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="css/swiper-bundle.-8.4.7min.css" />
     <link rel="stylesheet" href="css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>PSD 04</title>
@@ -196,7 +197,40 @@
                             <a href="">Contact Me</a>
                         </div>
                     </div>
-                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <div class="single-skill">
+                            <p>Photoshop</p>
+                            <div class="skillbar" data-percent="90">
+                                <!-- <span class="skillbar-title" style="background: #46465e;">Photoshop</span> -->
+                                <p class="skillbar-bar" style="background: #2ecc71;"></p>
+                                <span class="skill-bar-percent"></span>
+                            </div>
+                        </div>
+                        <div class="single-skill">
+                            <p>Illustrator</p>
+                            <div class="skillbar" data-percent="80">
+                                <!-- <span class="skillbar-title" style="background: #46465e;">Photoshop</span> -->
+                                <p class="skillbar-bar" style="background: #2ecc71;"></p>
+                                <span class="skill-bar-percent"></span>
+                            </div>
+                        </div>
+                        <div class="single-skill">
+                            <p>HTML / CSS</p>
+                            <div class="skillbar" data-percent="70">
+                                <!-- <span class="skillbar-title" style="background: #46465e;">Photoshop</span> -->
+                                <p class="skillbar-bar" style="background: #2ecc71;"></p>
+                                <span class="skill-bar-percent"></span>
+                            </div>
+                        </div>
+                        <div class="single-skill">
+                            <p>PHP / MYSQL</p>
+                            <div class="skillbar" data-percent="60">
+                                <!-- <span class="skillbar-title" style="background: #46465e;">Photoshop</span> -->
+                                <p class="skillbar-bar" style="background: #2ecc71;"></p>
+                                <span class="skill-bar-percent"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -338,19 +372,64 @@
 
     <!-- TESTIMONIAL AREA -->
     <section>
-        <div class="testimonial-area pt-100 pb-100 bg-background fix">
+        <div class="testimonial-area pt-100 pb-40 bg-background fix">
             <div class="row">
                 <div class="col-12">
-                    <div class="single-testimonial text-center">
+                    <!-- <div class="single-testimonial text-center">
                         <p>"Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute placerat. Purto
                             brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne
                             periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam.”</p>
                         <h6>John Stone</h6>
+                    </div> -->
+                    <!-- Slider main container -->
+                    <div class="swiper mySwiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="single-testimonial text-center">
+                                    <p>"Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute
+                                        placerat. Purto
+                                        brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum
+                                        ne
+                                        periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit
+                                        nam.”</p>
+                                    <h6>John Stone</h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-testimonial text-center">
+                                    <p>"Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute
+                                        placerat. Purto
+                                        brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum
+                                        ne
+                                        periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit
+                                        nam.”</p>
+                                    <h6>John Stone</h6>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-testimonial text-center">
+                                    <p>"Lorem ipsum dolor sit amet, ea doming epicuri iudicabit nam, te usu virtute
+                                        placerat. Purto
+                                        brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum
+                                        ne
+                                        periculis molestiae pri. Lorem ipsum dolor sit amet, ea doming epicuri iudicabit
+                                        nam.”</p>
+                                    <h6>John Stone</h6>
+                                </div>
+                            </div>
+                            ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
     <!-- END TESTIMONIAL AREA -->
 
     <!-- PORTFOLIO AREA -->
@@ -364,7 +443,7 @@
                             brute disputando cu est, eam dicam soluta ei. Vel dicam vivendo accusata ei, cum ne
                             periculis molestiae pri. </p>
                     </div>
-                    
+
                     <div class="col-4">
                         <div class="single-image">
                             <div class="image">
@@ -538,8 +617,12 @@
     </footer>
     <!-- END FOOTER AREA -->
 
-    <!-- ALL JS LINKED HERE -->
+    <!-- JQUERY JS LINKED HERE -->
     <script src="js/jquery-3.7.0.js" type="text/javascript"></script>
+
+    <!-- ALL LIBRARY JS LINKED HERE -->
+    <script src="js/skill.bars.jquery.js"></script>
+    <script src="js/swiper-bundle-8.4.7.min.js" type="text/javascript"></script>
 
     <!-- MODIFIED CONFIG ACTIVATION JS -->
     <script src="js/main.js" type="text/javascript"></script>
